@@ -32,6 +32,28 @@ h2 {
     font-size: 2.5rem;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16rem;
+}
+
+nav ul {
+    display: flex;
+}
+
+.nav {
+    display: flex;
+    width: 10rem;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav:hover {
+    background-color: var(--LightGrayishBlue);
+}
+
     .attribution {
       font-size: 11px;
       text-align: center;
