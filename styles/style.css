@@ -13,6 +13,25 @@
     padding: 5rem;
 }
 
+body {
+    color: var(--VeryDarkBlue);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+h1,
+h2,
+.nav {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1,
+h2 {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
     .attribution {
       font-size: 11px;
       text-align: center;
