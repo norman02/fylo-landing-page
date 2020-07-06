@@ -1,4 +1,17 @@
+:root {
+    --VeryDarkBlue: hsl(243, 87%, 12%);
+    --DesaturatedBlue: hsl(238, 22%, 44%);
+    --BrightBlue: hsl(224, 93%, 58%);
+    --ModerateCyan: hsl(170, 45%, 43%);
+    --LightGrayishBlue: hsl(240, 75%, 98%);
+    --LightGray: hsl(0, 0%, 75%);
+}
 
+.main-container {
+    max-width: 1100px;
+    min-width: 375px;
+    padding: 5rem;
+}
 
     .attribution {
       font-size: 11px;
