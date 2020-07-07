@@ -73,6 +73,29 @@ section p {
     width: 50%;
 }
 
+.email {
+    box-sizing: border-box;
+    width: 32rem;
+    height: 5rem;
+    border: 2px solid var(--VeryDarkBlue);
+    border-radius: 4px;
+    font-size: 2rem;
+}
+
+.submit {
+    width: 20rem;
+    height: 5rem;
+    border-radius: 4px;
+    background-color: var(--BrightBlue);
+    color: white;
+    font-size: 2rem;
+}
+
+.submit:hover {
+    cursor: pointer;
+    background-color: var(--DesaturatedBlue);
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
