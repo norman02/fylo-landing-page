@@ -8,9 +8,9 @@
 }
 
 .main-container {
-    max-width: 1100px;
+    max-width: 1400px;
     min-width: 375px;
-    padding: 5rem;
+    padding: 7rem;
 }
 
 body {
@@ -29,7 +29,7 @@ h2,
 h1,
 h2 {
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
 }
 
 nav {
@@ -54,11 +54,30 @@ nav ul {
     background-color: var(--LightGrayishBlue);
 }
 
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
+section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20rem;
+} 
 
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
+section p {
+    margin: 2rem 0;
+}
+
+.content-container {
+    width: 50%;
+    align-items: center;
+}
+
+.illustration {
+    width: 50%;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
