@@ -7,17 +7,18 @@
     --LightGray: hsl(0, 0%, 75%);
 }
 
-.main-container {
-    max-width: 1400px;
-    min-width: 375px;
-    padding: 7rem;
-}
 
 body {
     color: var(--VeryDarkBlue);
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 1.5rem;
+}
+
+.container {
+    padding: 7rem;
+    max-width: 1600px;
+    min-width: 350px;
 }
 
 h1,
@@ -57,7 +58,6 @@ nav ul {
 section {
     display: flex;
     align-items: center;
-    margin-bottom: 20rem;
 } 
 
 section p {
@@ -94,6 +94,13 @@ section p {
 .submit:hover {
     cursor: pointer;
     background-color: var(--DesaturatedBlue);
+}
+
+#productive {
+    height: 78rem;
+    margin-top: 17.5rem;
+    background: url('../images/bg-curve-desktop.svg') no-repeat center/cover;
+    
 }
 
 .attribution {
