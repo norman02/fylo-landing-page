@@ -143,11 +143,28 @@ section p {
     flex-direction: column;
 }
 
+
+footer {
+    background-color: var(--VeryDarkBlue);
+    color: white;
+}
+
+.footer-container {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
 .social {
     width: 2rem;
+    margin-right: 1rem;
+    border: solid white;
+    padding: 1rem;
+    border-radius: 100%;
 }
 
 .attribution {
+    margin: 5rem;
     font-size: 11px;
     text-align: center;
 }
