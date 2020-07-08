@@ -149,6 +149,10 @@ footer {
     color: white;
 }
 
+#logo-foot {
+    width: 18rem;
+}
+
 .footer-container {
     margin-top: 1rem;
     display: flex;
@@ -158,17 +162,8 @@ footer {
 .social {
     width: 2rem;
     margin-right: 1rem;
-    border: solid white;
+    border: 1px solid white;
     padding: 1rem;
     border-radius: 100%;
 }
 
-.attribution {
-    margin: 5rem;
-    font-size: 11px;
-    text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
