@@ -143,11 +143,27 @@ section p {
     flex-direction: column;
 }
 
-.attribution {
-    font-size: 11px;
-    text-align: center;
+
+footer {
+    background-color: var(--VeryDarkBlue);
+    color: white;
 }
 
-.attribution a {
-    color: hsl(228, 45%, 44%);
+#logo-foot {
+    width: 18rem;
 }
+
+.footer-container {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social {
+    width: 2rem;
+    margin-right: 1rem;
+    border: 1px solid white;
+    padding: 1rem;
+    border-radius: 100%;
+}
+
