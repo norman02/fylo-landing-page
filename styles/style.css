@@ -33,6 +33,10 @@ h2 {
     font-size: 3.5rem;
 }
 
+#logo {
+    width: 16rem;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -45,15 +49,12 @@ nav ul {
 
 .nav {
     display: flex;
-    width: 10rem;
-    height: 5rem;
+    margin-left: 2rem;
     justify-content: center;
     align-items: center;
 }
 
-.nav:hover {
-    background-color: var(--LightGrayishBlue);
-}
+
 
 section {
     display: flex;
@@ -165,5 +166,75 @@ footer {
     border: 1px solid white;
     padding: 1rem;
     border-radius: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .container {
+        padding: 6rem;
+        
+    }
+
+    .content-container,
+    .email,
+    .submit {
+        width: auto;
+    }
+
+    .illustration {
+        width: 80%;
+    }
+
+    .content-container {
+        text-align: center;
+    }
+
+    section {
+        flex-direction: column-reverse;
+        
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .submit {
+        margin: 3rem 0px;
+    }
+
+    #productive {
+        height: auto;
+        margin-top: 17.5rem;
+        background: url('../images/bg-curve-mobile.svg') no-repeat center/cover;
+        
+    }
+
+    .quote {
+        width: auto;
+        padding: 3rem;
+        text-align: left;
+        margin: 9rem;
+    }
+
+    #early-access {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #early-access .content-container {
+        width: auto;
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
+
+    footer ul,
+    .social {
+        margin-top: 6rem;
+    }
+
+
 }
 
