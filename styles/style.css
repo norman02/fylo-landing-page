@@ -127,6 +127,22 @@ section p {
     margin-right: 1rem;
 }
 
+#early-access {
+    background-color: var(--DesaturatedBlue);
+    color: white;
+    justify-content: space-between;
+}
+
+#early-access .content-container {
+    justify-content: space-between;
+    width: 36%;
+}
+
+#early-access form {
+    display: flex;
+    flex-direction: column;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
